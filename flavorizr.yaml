@@ -1,0 +1,39 @@
+flavors:
+  production:
+    app:
+      name: "Capsule Apps"
+
+    android:
+      applicationId: "id.co.example.capsuleapps"  
+      firebase:
+        config: ".firebase/production/google-services.json"
+    ios:
+      bundleId: "id.co.example.capsuleapps"
+      firebase:
+        config: ".firebase/production/GoogleService-Info.plist"
+
+  staging:
+    app:
+      name: "[staging]Capsule Apps"
+
+    android:
+      applicationId: "id.co.example.capsuleapps.staging"  
+      firebase:
+        config: ".firebase/staging/google-services.json"
+    ios:
+      bundleId: "id.co.example.capsuleapps.staging"
+      firebase:
+        config: ".firebase/staging/GoogleService-Info.plist"
+
+  dev:
+    app:
+      name: "[dev]Capsule Apps"
+
+    android:
+      applicationId: "id.co.example.capsuleapps.dev"  
+      firebase:
+        config: ".firebase/dev/google-services.json"
+    ios:
+      bundleId: "id.co.example.capsuleapps.dev"
+      firebase:
+        config: ".firebase/dev/GoogleService-Info.plist"
