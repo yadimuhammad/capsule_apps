@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "646424487625",
+    "project_id": "pdl-superapps-uat",
+    "storage_bucket": "pdl-superapps-uat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646424487625:android:e07909ab0e70efa546cf18",
+        "android_client_info": {
+          "package_name": "id.co.panindaiichilife.quantumx360"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTQQkDh65tl3QM0NKrZENdft_o0WBl_L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646424487625:android:6d421cb688886e7546cf18",
+        "android_client_info": {
+          "package_name": "id.co.panindaiichilife.quantumx360.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTQQkDh65tl3QM0NKrZENdft_o0WBl_L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
