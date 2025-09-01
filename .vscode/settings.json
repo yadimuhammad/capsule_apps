@@ -1,0 +1,11 @@
+{
+	"java.configuration.updateBuildConfiguration": "automatic",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.rulers": [
+			80
+		],
+	},
+	"dart.lineLength": 80,
+	"CodeGPT.apiKey": "CodeGPT Plus Beta"
+}

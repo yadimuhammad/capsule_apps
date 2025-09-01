@@ -1,0 +1,6 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+
+ASSET_PREFIX=production
+BUNDLE_NAME=Capsule Apps
+BUNDLE_DISPLAY_NAME=Capsule Apps

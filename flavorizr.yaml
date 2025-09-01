@@ -6,11 +6,11 @@ flavors:
     android:
       applicationId: "id.co.example.capsuleapps"  
       firebase:
-        config: ".firebase/production/google-services.json"
+        config: ".firebase/prod/google-services.json"
     ios:
       bundleId: "id.co.example.capsuleapps"
       firebase:
-        config: ".firebase/production/GoogleService-Info.plist"
+        config: ".firebase/prod/GoogleService-Info.plist"
 
   staging:
     app:
