@@ -1,6 +1,7 @@
 // Padding
 import 'package:flutter/material.dart';
 
+const double kPaddingExtraSmall = 4.0;
 const double kPaddingSmall = 8.0;
 const double kPaddingMedium = 16.0;
 const double kPaddingLarge = 24.0;
