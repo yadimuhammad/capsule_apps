@@ -31,9 +31,3 @@ const FontWeight kFontWeightRegular = FontWeight.w400;
 const FontWeight kFontWeightMedium = FontWeight.w500;
 const FontWeight kFontWeightSemiBold = FontWeight.w600;
 const FontWeight kFontWeightBold = FontWeight.w700;
-
-// Colors
-const Color kColorPrimary = Color(0xFF000000);
-const Color kColorSecondary = Color(0xFFFFFFFF);
-const Color kColorAccent = Color(0xFF000000);
-const kColorError = Color(0xFFFF4233);

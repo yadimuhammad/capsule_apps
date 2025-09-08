@@ -1,28 +1,23 @@
+import 'package:capsule_apps/pages/root.dart';
 import 'package:capsule_apps/utils/constants.dart';
+import 'package:capsule_apps/utils/themes/app_theme.dart';
+import 'package:capsule_apps/utils/themes/theme_services.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'flavors.dart';
-import 'pages/my_home_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: F.title,
-      theme: ThemeData(primarySwatch: Colors.blue),
-      debugShowCheckedModeBanner: false,
-      home: Stack(
-        alignment: Alignment.center,
-        children: [
-          MyHomePage(),
-
-          if (F.appFlavor != Flavor.production)
-            Positioned(right: 0, top: 120, child: _flavorBanner(context)),
-        ],
-      ),
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        MainApp(home: Root()),
+        if (F.appFlavor != Flavor.production)
+          Positioned(right: 0, top: 120, child: _flavorBanner(context)),
+      ],
     );
   }
 
@@ -35,7 +30,7 @@ class App extends StatelessWidget {
             vertical: kPaddingSmall,
             horizontal: kPaddingMedium,
           ),
-          color: kColorError.withAlpha(150),
+          color: Theme.of(context).colorScheme.error.withAlpha(150),
           child: Text(
             F.name,
             textDirection: TextDirection.ltr,
@@ -43,6 +38,23 @@ class App extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class MainApp extends StatelessWidget {
+  final Widget home;
+  const MainApp({required this.home, super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return GetMaterialApp(
+      title: F.title,
+      theme: AppTheme.light,
+      darkTheme: AppTheme.dark,
+      themeMode: ThemeServices.instance.themeMode,
+      debugShowCheckedModeBanner: false,
+      home: home,
     );
   }
 }
