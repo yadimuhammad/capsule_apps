@@ -9,6 +9,7 @@ import 'package:capsule_apps/components/custom_radio_button.dart';
 import 'package:capsule_apps/components/custom_switch.dart';
 import 'package:capsule_apps/components/custom_text_field.dart';
 import 'package:capsule_apps/controllers/components_page_controllers.dart';
+import 'package:capsule_apps/pages/on_boarding/on_boarding_page.dart';
 import 'package:capsule_apps/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -24,7 +25,7 @@ class ComponentsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      appBar: CustomAppbar(titles: 'Components'),
+      appBar: CustomAppbar(titles: 'Components', context: context),
       // AppBar(title: Text('Capsule Apps')),
       body: SingleChildScrollView(
         child: Padding(
@@ -39,7 +40,7 @@ class ComponentsPage extends StatelessWidget {
                     Expanded(
                       child: CustomButton(
                         title: 'On Boarding',
-                        onPressed: () {},
+                        onPressed: () => Get.to(() => OnboardingScreen()),
                       ),
                     ),
                     SizedBox(width: kPaddingSmall),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 // ignore: must_be_immutable
 class CustomAppbar extends AppBar {
@@ -17,6 +16,7 @@ class CustomAppbar extends AppBar {
   final bool? isGradient;
   final Color? titleColor;
   final bool? noImage;
+  final BuildContext context;
   @override
   // ignore: overridden_fields
   PreferredSizeWidget? bottom;
@@ -37,20 +37,21 @@ class CustomAppbar extends AppBar {
     this.titleColor,
     this.bottom,
     this.noImage,
+    required this.context,
     super.key,
   }) : super(
          backgroundColor: isGradient == true
              ? Colors.transparent
-             : (bgColor ?? Theme.of(Get.context!).colorScheme.primary),
+             : (bgColor ?? Theme.of(context).colorScheme.primary),
          toolbarHeight: height ?? kToolbarHeight,
          leading: widgetLeading,
          surfaceTintColor: Colors.transparent,
          iconTheme: IconThemeData(
-           color: fgColor ?? Theme.of(Get.context!).colorScheme.surface,
+           color: fgColor ?? Theme.of(context).colorScheme.surface,
            size: 30,
          ),
          title: titles != null
-             ? Text(titles, style: Theme.of(Get.context!).textTheme.titleMedium)
+             ? Text(titles, style: Theme.of(context).textTheme.titleMedium)
              : widgets,
          flexibleSpace: isGradient == true
              ? Container(
@@ -76,7 +77,7 @@ class CustomAppbar extends AppBar {
          centerTitle: centeredTitle ?? true,
          automaticallyImplyLeading: autoImplyLeading ?? true,
          actions: action,
-         foregroundColor: fgColor ?? Theme.of(Get.context!).colorScheme.surface,
+         foregroundColor: fgColor ?? Theme.of(context).colorScheme.surface,
          bottom: bottom,
        );
 }
