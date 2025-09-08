@@ -4,11 +4,11 @@ flavors:
       name: "Capsule Apps"
 
     android:
-      applicationId: "id.co.example.capsuleapps"  
+      applicationId: "com.capsuleapps.id"  
       firebase:
         config: ".firebase/prod/google-services.json"
     ios:
-      bundleId: "id.co.example.capsuleapps"
+      bundleId: "com.capsuleapps.id"
       firebase:
         config: ".firebase/prod/GoogleService-Info.plist"
 
@@ -17,11 +17,11 @@ flavors:
       name: "[staging]Capsule Apps"
 
     android:
-      applicationId: "id.co.example.capsuleapps.staging"  
+      applicationId: "com.capsuleapps.id"  
       firebase:
         config: ".firebase/staging/google-services.json"
     ios:
-      bundleId: "id.co.example.capsuleapps.staging"
+      bundleId: "com.capsuleapps.id"
       firebase:
         config: ".firebase/staging/GoogleService-Info.plist"
 
@@ -30,10 +30,10 @@ flavors:
       name: "[dev]Capsule Apps"
 
     android:
-      applicationId: "id.co.example.capsuleapps.dev"  
+      applicationId: "com.capsuleapps.id"  
       firebase:
         config: ".firebase/dev/google-services.json"
     ios:
-      bundleId: "id.co.example.capsuleapps.dev"
+      bundleId: "com.capsuleapps.id"
       firebase:
         config: ".firebase/dev/GoogleService-Info.plist"

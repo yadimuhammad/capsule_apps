@@ -12,6 +12,7 @@ class Root extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // setup login/home
     return Scaffold(resizeToAvoidBottomInset: true, body: ComponentsPage());
   }
 }

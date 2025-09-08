@@ -1,10 +1,12 @@
 import 'package:capsule_apps/base/base_controllers.dart';
+import 'package:capsule_apps/utils/languages/languages.dart';
 import 'package:capsule_apps/utils/themes/theme_services.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 
 class ComponentsPageControllers extends BaseControllers {
   RxBool isSwitched = false.obs;
+  RxBool isSwitchedLanguage = false.obs;
 
   @override
   void onInit() {
@@ -19,5 +21,12 @@ class ComponentsPageControllers extends BaseControllers {
     ThemeServices.instance.themeMode = isSwitched.value
         ? ThemeMode.dark
         : ThemeMode.light;
+  }
+
+  void toggleLanguage() {
+    isSwitchedLanguage.value = !isSwitchedLanguage.value;
+    Languages().changeLocale(
+      isSwitchedLanguage.value ? 'Indonesia' : 'English',
+    );
   }
 }

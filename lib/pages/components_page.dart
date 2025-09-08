@@ -26,7 +26,7 @@ class ComponentsPage extends StatelessWidget {
                 padding: EdgeInsets.symmetric(vertical: kPaddingSmall),
                 child: Row(
                   children: [
-                    Expanded(child: Text('Dark Mode')),
+                    Expanded(child: Text('dark_mode_str'.tr)),
                     Obx(
                       () => CustomSwitch(
                         value: controllers.isSwitched.value,
@@ -36,7 +36,22 @@ class ComponentsPage extends StatelessWidget {
                   ],
                 ),
               ),
-              Text('heherhehehe'),
+              Container(
+                width: double.infinity,
+                padding: EdgeInsets.symmetric(vertical: kPaddingSmall),
+                child: Row(
+                  children: [
+                    Expanded(child: Text('language_str'.tr)),
+                    Obx(
+                      () => CustomSwitch(
+                        value: controllers.isSwitchedLanguage.value,
+                        onChanged: (value) => controllers.toggleLanguage(),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Text('hi_str'.tr),
             ],
           ),
         ),

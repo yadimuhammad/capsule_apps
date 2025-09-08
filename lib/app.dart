@@ -1,5 +1,6 @@
 import 'package:capsule_apps/pages/root.dart';
 import 'package:capsule_apps/utils/constants.dart';
+import 'package:capsule_apps/utils/languages/languages.dart';
 import 'package:capsule_apps/utils/themes/app_theme.dart';
 import 'package:capsule_apps/utils/themes/theme_services.dart';
 import 'package:flutter/material.dart';
@@ -54,6 +55,9 @@ class MainApp extends StatelessWidget {
       darkTheme: AppTheme.dark,
       themeMode: ThemeServices.instance.themeMode,
       debugShowCheckedModeBanner: false,
+      translations: Languages(),
+      locale: Languages.locale,
+      fallbackLocale: Languages.fallBackLocale,
       home: home,
     );
   }

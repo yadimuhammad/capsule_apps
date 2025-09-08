@@ -1,4 +1,4 @@
-package com.example.capsule_apps
+package com.capsuleapps.id
 
 import io.flutter.embedding.android.FlutterActivity
 

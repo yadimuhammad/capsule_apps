@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "646424487625",
-    "project_id": "pdl-superapps-uat",
-    "storage_bucket": "pdl-superapps-uat.firebasestorage.app"
+    "project_number": "357786086049",
+    "project_id": "capsule-apps",
+    "storage_bucket": "capsule-apps.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:646424487625:android:e07909ab0e70efa546cf18",
+        "mobilesdk_app_id": "1:357786086049:android:d889d0bdba2e8bd3cb9ee0",
         "android_client_info": {
-          "package_name": "id.co.panindaiichilife.quantumx360"
+          "package_name": "com.capsuleapps.id"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCTQQkDh65tl3QM0NKrZENdft_o0WBl_L8"
+          "current_key": "AIzaSyDB28ImgtxcCm56hUBu0U6HVVfrJeQkqu8"
         }
       ],
       "services": {
@@ -26,15 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:646424487625:android:6d421cb688886e7546cf18",
+        "mobilesdk_app_id": "1:357786086049:android:515cd0bb3f2e08becb9ee0",
         "android_client_info": {
-          "package_name": "id.co.panindaiichilife.quantumx360.dev"
+          "package_name": "com.capsuleapps.id"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCTQQkDh65tl3QM0NKrZENdft_o0WBl_L8"
+          "current_key": "AIzaSyDB28ImgtxcCm56hUBu0U6HVVfrJeQkqu8"
         }
       ],
       "services": {

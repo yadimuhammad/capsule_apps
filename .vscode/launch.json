@@ -37,8 +37,6 @@
 				"dev",
 				"--target",
 				"lib/main.dart",
-				"--web-browser-flag",
-				"--disable-web-security",
 			]
 		}
 	]
