@@ -32,6 +32,23 @@ class ComponentsPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SizedBox(height: kPaddingMedium),
+              cardWrapper(
+                Row(
+                  children: [
+                    Expanded(
+                      child: CustomButton(
+                        title: 'On Boarding',
+                        onPressed: () {},
+                      ),
+                    ),
+                    SizedBox(width: kPaddingSmall),
+                    Expanded(
+                      child: CustomButton(title: 'Login', onPressed: () {}),
+                    ),
+                  ],
+                ),
+              ),
               cardWrapper(
                 Row(
                   children: [

@@ -1,4 +1,5 @@
 import 'package:capsule_apps/firebase_options.dart';
+import 'package:capsule_apps/utils/env_loader.dart';
 import 'package:capsule_apps/utils/languages/language_controller.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -20,6 +21,21 @@ Future<void> setupInitializers() async {
     (element) => element.name == appFlavor,
   );
   await GetStorage.init();
+
+  const environment = String.fromEnvironment(
+    'ENVIRONMENT',
+    defaultValue: 'dev',
+  );
+
+  switch (environment) {
+    case 'dev':
+      await EnvLoader.load(fileName: ".dev.env");
+      break;
+    case 'prod':
+      await EnvLoader.load(fileName: ".prod.env");
+      break;
+  }
+
   // Initialize Firebase
   try {
     await Firebase.initializeApp(

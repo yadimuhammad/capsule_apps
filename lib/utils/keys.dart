@@ -1,0 +1,1 @@
+const kStorageToken = 'token-storage';
