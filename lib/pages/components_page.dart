@@ -9,6 +9,7 @@ import 'package:capsule_apps/components/custom_radio_button.dart';
 import 'package:capsule_apps/components/custom_switch.dart';
 import 'package:capsule_apps/components/custom_text_field.dart';
 import 'package:capsule_apps/controllers/components_page_controllers.dart';
+import 'package:capsule_apps/pages/auth/login_page.dart';
 import 'package:capsule_apps/pages/on_boarding/on_boarding_page.dart';
 import 'package:capsule_apps/utils/constants.dart';
 import 'package:flutter/material.dart';
@@ -45,7 +46,10 @@ class ComponentsPage extends StatelessWidget {
                     ),
                     SizedBox(width: kPaddingSmall),
                     Expanded(
-                      child: CustomButton(title: 'Login', onPressed: () {}),
+                      child: CustomButton(
+                        title: 'Login',
+                        onPressed: () => Get.to(() => LoginScreen()),
+                      ),
                     ),
                   ],
                 ),
