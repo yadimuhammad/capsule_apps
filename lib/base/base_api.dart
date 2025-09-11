@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:capsule_apps/base/base_controllers.dart';
-import 'package:capsule_apps/utils/keys.dart';
+import '../base/base_controllers.dart';
+import '../utils/keys.dart';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
 import 'package:shared_preferences/shared_preferences.dart';

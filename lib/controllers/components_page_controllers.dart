@@ -1,6 +1,6 @@
-import 'package:capsule_apps/base/base_controllers.dart';
-import 'package:capsule_apps/utils/languages/languages.dart';
-import 'package:capsule_apps/utils/themes/theme_services.dart';
+import '../base/base_controllers.dart';
+import '../utils/languages/languages.dart';
+import '../utils/themes/theme_services.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 

@@ -1,6 +1,6 @@
-import 'package:capsule_apps/base/base_controllers.dart';
-import 'package:capsule_apps/models/on_boarding/question_models.dart';
-import 'package:capsule_apps/pages/components_page.dart';
+import '../../base/base_controllers.dart';
+import '../../models/on_boarding/question_models.dart';
+import '../../pages/components_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';

@@ -1,5 +1,5 @@
 import 'package:animated_custom_dropdown/custom_dropdown.dart';
-import 'package:capsule_apps/utils/constants.dart';
+import '../utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

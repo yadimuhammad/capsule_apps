@@ -1,4 +1,4 @@
-import 'package:capsule_apps/utils/constants.dart';
+import '../../utils/constants.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

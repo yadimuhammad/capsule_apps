@@ -1,4 +1,4 @@
-import 'package:capsule_apps/utils/constants.dart';
+import '../utils/constants.dart';
 import 'package:flutter/material.dart';
 
 class CustomRadioButton extends StatelessWidget {

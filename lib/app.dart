@@ -1,8 +1,8 @@
-import 'package:capsule_apps/pages/root.dart';
-import 'package:capsule_apps/utils/constants.dart';
-import 'package:capsule_apps/utils/languages/languages.dart';
-import 'package:capsule_apps/utils/themes/app_theme.dart';
-import 'package:capsule_apps/utils/themes/theme_services.dart';
+import '../pages/root.dart';
+import '../utils/constants.dart';
+import '../utils/languages/languages.dart';
+import '../utils/themes/app_theme.dart';
+import '../utils/themes/theme_services.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'flavors.dart';

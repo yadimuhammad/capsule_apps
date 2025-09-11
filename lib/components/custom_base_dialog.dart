@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:capsule_apps/components/keyboard_aware_wrapper.dart';
-import 'package:capsule_apps/utils/constants.dart';
+import '../components/keyboard_aware_wrapper.dart';
+import '../utils/constants.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

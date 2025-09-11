@@ -1,5 +1,5 @@
-import 'package:capsule_apps/controllers/root_controllers.dart';
-import 'package:capsule_apps/pages/components_page.dart';
+import '../controllers/root_controllers.dart';
+import '../pages/components_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

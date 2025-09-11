@@ -1,4 +1,4 @@
-import 'package:capsule_apps/controllers/auth/auth_controllers.dart';
+import '../../controllers/auth/auth_controllers.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'dart:io';

@@ -1,5 +1,5 @@
-import 'package:capsule_apps/base/base_api.dart';
-import 'package:capsule_apps/utils/env_loader.dart';
+import '../base/base_api.dart';
+import '../utils/env_loader.dart';
 
 String baseUrl = EnvLoader.get("BASE_URL");
 

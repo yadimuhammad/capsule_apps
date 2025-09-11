@@ -1,4 +1,4 @@
-import 'package:capsule_apps/controllers/on_boarding/on_boarding_controllers.dart';
+import '../../controllers/on_boarding/on_boarding_controllers.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';

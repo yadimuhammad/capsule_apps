@@ -1,4 +1,4 @@
-import 'package:capsule_apps/utils/utils.dart';
+import '../utils/utils.dart';
 import 'package:get/get.dart';
 
 abstract class BaseControllers extends GetxController {

@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:capsule_apps/utils/languages/language_controller.dart';
+import '../../utils/languages/language_controller.dart';
 import 'package:get/get.dart';
 
 class Languages extends Translations {

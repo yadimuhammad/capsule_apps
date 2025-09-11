@@ -1,4 +1,4 @@
-import 'package:capsule_apps/base/base_controllers.dart';
+import '../../base/base_controllers.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 

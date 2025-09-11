@@ -1,4 +1,4 @@
-import 'package:capsule_apps/models/auth/user_models.dart';
+import '../../models/auth/user_models.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';

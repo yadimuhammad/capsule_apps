@@ -37,3 +37,9 @@ flavors:
       bundleId: "com.capsuleapps.id"
       firebase:
         config: ".firebase/dev/GoogleService-Info.plist"
+
+instructions:
+  - assets
+  - android
+  - ios
+  - flutter:flavors

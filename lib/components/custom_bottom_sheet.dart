@@ -1,5 +1,5 @@
-import 'package:capsule_apps/components/custom_base_dialog.dart';
-import 'package:capsule_apps/utils/constants.dart';
+import '../components/custom_base_dialog.dart';
+import '../utils/constants.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
